@@ -1,0 +1,19 @@
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .pixel-grid {
+    display: grid;
+    grid-template-columns: repeat(100, 10px);
+    grid-template-rows: repeat(100, 10px);
+  }
+  
+  .pixel {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+  
